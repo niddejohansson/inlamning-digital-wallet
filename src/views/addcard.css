@@ -1,0 +1,21 @@
+.addCardContainer {
+  position: relative;
+  height: 896px;
+  width: 414px;
+  margin-top: 0;
+}
+
+.addButton {
+  position: absolute;
+  width: 382px;
+  height: 72px;
+  left: 16px;
+  top: 808px;
+  background-color: black;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+  border: solid 1px black;
+  font-size: 18px;
+}

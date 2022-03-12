@@ -1,0 +1,28 @@
+.homeContainer {
+  position: relative;
+  height: 896px;
+  width: 414px;
+  margin-top: 0;
+}
+
+#cardStack {
+  position: absolute;
+  width: 350px;
+  top: 300px;
+  left: 4px;
+}
+
+#homeButton {
+  position: absolute;
+  width: 382px;
+  height: 72px;
+  left: 16px;
+  top: 808px;
+  background-color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+  border: solid 1px black;
+  font-size: 18px;
+}

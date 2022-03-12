@@ -1,0 +1,37 @@
+.cardStack {
+  position: absolute;
+  top: 290px;
+  width: 350px;
+  height: 350px;
+}
+
+.cardStack .card:nth-child(1) {
+  position: absolute;
+  top: 120px;
+  z-index: 1;
+}
+
+.cardStack .card:nth-child(2) {
+  position: absolute;
+  top: 170px;
+  z-index: 2;
+}
+
+.cardStack .card:nth-child(3) {
+  position: absolute;
+  top: 220px;
+  z-index: 3;
+}
+
+.cardStack .card:nth-child(4) {
+  position: absolute;
+  top: 270px;
+  z-index: 4;
+}
+
+
+/* .cardStack .card:nth-child(5) {
+  position: absolute;
+  top: 290px;
+  z-index: 5;
+} */

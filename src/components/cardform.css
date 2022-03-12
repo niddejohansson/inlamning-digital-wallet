@@ -1,0 +1,78 @@
+.cardForm.p {
+  font-size: 20px;
+  display: inline-block;
+}
+
+.inputField {
+  width: 382px;
+  height: 56px;
+  border-radius: 8px;
+  border: solid 1px black;
+}
+
+.inputFieldHalfSize {
+  width: 160px;
+  height: 56px;
+  border-radius: 8px;
+  border: solid 1px black;
+}
+
+#numberText {
+  position: absolute;
+  width: 382px;
+  height: 56px;
+  left: 16px;
+  top: 400px;
+  text-align: left;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+#nameText {
+  position: absolute;
+  width: 382px;
+  height: 56px;
+  left: 16px;
+  top: 480px;
+  font-size: 12px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+#ccvText {
+  position: absolute;
+  width: 160px;
+  height: 56px;
+  left: 236px;
+  top: 560px;
+  font-size: 12px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+#validText {
+  position: absolute;
+  width: 160px;
+  height: 56px;
+  left: 16px;
+  top: 560px;
+  font-size: 12px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+#vendorText {
+  position: absolute;
+  width: 382px;
+  height: 56px;
+  left: 16px;
+  top: 680px;
+  font-size: 12px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+#companyDropdown {
+  text-transform: uppercase;
+  text-align: center;
+}

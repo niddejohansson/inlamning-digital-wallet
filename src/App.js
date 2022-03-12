@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import '../src/components/card.css';
+import '../src/components/cardform.css';
+import '../src/components/cardstack.css';
+
+import AddCard from '../src/views/AddCard'
+import Home from './views/Home';
+import { Routes, Route } from 'react-router-dom';
+import { useState } from 'react';
 
 function App() {
+
+  const [cards, setCards] = useState([])
+
+  function addNewCard(card){
+    setCards((oldCards) => {
+      oldCards.push(card)
+      return oldCards;
+    })
+  }
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path='/home' element={ <Home cards={cards}/>}/>
+        <Route path='/addcard' element={ <AddCard setCards={addNewCard}/>}/>
+      </Routes>
     </div>
   );
 }

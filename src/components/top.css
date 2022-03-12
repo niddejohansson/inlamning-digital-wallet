@@ -1,0 +1,17 @@
+.headline {
+  text-transform: uppercase;
+}
+
+.subHeadline {
+  position: absolute;
+  width: 350px;
+  height: 42px;
+  left: 32px;
+  top: 90px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  z-index: 2;
+  text-transform: uppercase;
+}
