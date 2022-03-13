@@ -16,27 +16,22 @@ function AddCard(props){
         ccv: "",
         company: ""
     }
-
-
+   
     const [tempCard, setTempCard] = useState(emptyCard);
     const navigate = useNavigate();
     const { setCards } = props;
 
-    function handleSubmit(){
-        
+    function handleSubmit(){       
         setCards(tempCard)
         navigate('/home')
     }
-
-    
-    
+   
     return(
         <section className="addCardContainer">
             <Top addTitle="add a new card" addText="new card"/>
             <Card card={ tempCard }/>           
             <CardForm setCard={ setTempCard }/>
             <button onClick={ handleSubmit } className="addButton">add card</button>
-
         </section>
     )
 }

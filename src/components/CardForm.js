@@ -1,11 +1,6 @@
-//Ta alla olika inputs från fälten
-//När man klickar på knappen så ska allt sparas i en array
-
 function CardForm(props){
 
-
     const { setCard } = props;
-
 
     function handleCard(){
         const tempCard={
@@ -17,8 +12,7 @@ function CardForm(props){
         }
         setCard(tempCard)
     }
-
-    
+   
     return(
         <form className='cardForm'>
             <label id="numberText">Card number<br/>

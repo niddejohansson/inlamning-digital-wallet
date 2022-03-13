@@ -21,8 +21,10 @@ function Home(props){
     const [selectedCard, setSelectedCard] = useState(emptyCard);
 
     const { cards } = props;
-
-    //console.log(cards)
+    
+    useEffect(() =>{
+        localStorage.setItem('card', JSON.stringify(cards))
+    },[cards])
 
     useEffect(()=> {
         if(cards.length > 0){
@@ -34,8 +36,8 @@ function Home(props){
         <section className='homeContainer'>
             <Top nameTitle="e-wallet" addName="active card"/>
             <Card card={ selectedCard }/>
-            <CardStack cards={ cards } setCard={setSelectedCard}/>
-            <button id='homeButton' onClick={()=> {navigate('/addcard')}}>Lägg till kort</button>
+            <CardStack cards={ cards } setCard={ setSelectedCard }/>
+            <button id='homeButton' onClick={()=> {navigate('/addcard')}}>add a new card</button>
         </section>
     )
 }

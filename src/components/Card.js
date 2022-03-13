@@ -1,4 +1,3 @@
-//import { useState } from "react";
 import bitcoinLogo from '../assets/vendor-bitcoin.svg';
 import ninjaLogo from '../assets/vendor-ninja.svg';
 import blockLogo from '../assets/vendor-blockchain.svg';
@@ -6,29 +5,28 @@ import evilLogo from '../assets/vendor-evil.svg';
 import chip from '../assets/chip-light.svg';
 
 function Card(props) {
-const { card, setCard } = props;
+const { card, setCard, remove } = props;
 var cardLogo;
 
 const chipImage = chip;
 var cardClass = "card";
 
-
 if (card.company === "bitcoin"){
     cardLogo = bitcoinLogo
     cardClass += " bitcoin"
-    console.log(cardClass)
+
 } else if(card.company === "blockchain"){
     cardLogo = blockLogo
     cardClass += " blockchain"
-    console.log(cardClass)
+
 } else if(card.company === "ninja") {
     cardLogo = ninjaLogo
     cardClass += " ninja"
-    console.log(cardClass)
+
 } else if(card.company === "evilcorp"){
     cardLogo = evilLogo
     cardClass += " evilcorp"
-    console.log(cardClass)
+
 } else if(card.company === ""){
     cardLogo = bitcoinLogo
 
