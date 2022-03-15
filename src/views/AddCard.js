@@ -6,7 +6,6 @@ import Card from "../components/Card";
 import Top from "../components/Top";
 import './addcard.css'
 
-
 function AddCard(props){
 
     const emptyCard={

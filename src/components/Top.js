@@ -1,4 +1,3 @@
-//Ha en överskrift här beroende på view
 import './top.css'
 
 function Top(props){

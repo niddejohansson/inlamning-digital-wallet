@@ -17,25 +17,21 @@ function Home(props){
         ccv: "",
         company: ""
     }
-
+ 
     const [selectedCard, setSelectedCard] = useState(emptyCard);
 
     const { cards } = props;
-    
-    useEffect(() =>{
-        localStorage.setItem('card', JSON.stringify(cards))
-    },[cards])
 
     useEffect(()=> {
-        if(cards.length > 0){
+            if(cards.length > 0){
             setSelectedCard(cards[0])
         }
-    },[])
+    },[cards])
 
     return(
         <section className='homeContainer'>
             <Top nameTitle="e-wallet" addName="active card"/>
-            <Card card={ selectedCard }/>
+            <Card card={ selectedCard } setCard={ setSelectedCard }/>
             <CardStack cards={ cards } setCard={ setSelectedCard }/>
             <button id='homeButton' onClick={()=> {navigate('/addcard')}}>add a new card</button>
         </section>
