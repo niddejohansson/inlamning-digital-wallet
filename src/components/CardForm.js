@@ -16,16 +16,16 @@ function CardForm(props){
     return(
         <form className='cardForm'>
             <label id="numberText">Card number<br/>
-            <input id='numberInput' className="inputField" type='text' onChange={ handleCard }/>
+            <input id='numberInput' className="inputField" type='text' maxLength="16" minLength="14" onChange={ handleCard }/>
             </label>
             <label id="nameText">Card holder<br/>
             <input id='nameInput' className="inputField" type='text' onChange={ handleCard }/>
             </label>
             <label id="validText">Valid thru<br/>
-            <input id='validInput' type='text' className="inputFieldHalfSize" onChange={ handleCard }/>
+            <input id='validInput' type='text' className="inputFieldHalfSize" maxLength="5" onChange={ handleCard }/>
             </label>
             <label id="ccvText">CCV<br/>
-            <input id='ccvInput'type='text' className="inputFieldHalfSize" onChange={ handleCard }/>
+            <input id='ccvInput'type='text' className="inputFieldHalfSize" maxLength="3" onChange={ handleCard }/>
             </label>
             <label id="vendorText">Vendor<br/>
             <select id='companyDropdown' className="inputField" onChange={ handleCard }>
