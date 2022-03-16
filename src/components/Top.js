@@ -1,4 +1,4 @@
-import './top.css'
+import './Top.css'
 
 function Top(props){
 

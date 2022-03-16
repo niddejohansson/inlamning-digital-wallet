@@ -1,5 +1,8 @@
 import Card from "./Card";
 
+import './CardStack.css';
+
+
 function CardStack(props){
 
     const { cards, setCard } = props;

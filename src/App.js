@@ -1,7 +1,5 @@
 import './App.css';
-import '../src/components/card.css';
-import '../src/components/cardform.css';
-import '../src/components/cardstack.css';
+
 
 import AddCard from '../src/views/AddCard'
 import Home from './views/Home';

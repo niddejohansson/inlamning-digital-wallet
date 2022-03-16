@@ -5,7 +5,7 @@ import Card from "../components/Card";
 import Top from "../components/Top";
 import CardStack from '../components/CardStack';
 
-import './home.css'
+import './Home.css'
 
 function Home(props){
     const navigate = useNavigate();

@@ -4,6 +4,8 @@ import blockLogo from '../assets/vendor-blockchain.svg';
 import evilLogo from '../assets/vendor-evil.svg';
 import chip from '../assets/chip-light.svg';
 
+import './Card.css';
+
 function Card(props) {
     const { card, setCard } = props;
     

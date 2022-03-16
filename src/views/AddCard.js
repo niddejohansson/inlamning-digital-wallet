@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import CardForm from "../components/CardForm";
 import Card from "../components/Card";
 import Top from "../components/Top";
-import './addcard.css'
+import './AddCard.css'
 
 function AddCard(props){
 
