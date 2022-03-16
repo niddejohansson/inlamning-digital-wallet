@@ -6,6 +6,7 @@ import chip from '../assets/chip-light.svg';
 
 function Card(props) {
     const { card, setCard } = props;
+    
     var cardLogo;
 
     const chipImage = chip;

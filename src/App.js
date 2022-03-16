@@ -10,12 +10,11 @@ import { useState, useEffect } from 'react';
 
 function App() {
 
-  
-
   const [cards, setCards] = useState([])
 
 
-//Här nedanför är början på VG-uppgiften, men jag fick det inte att fungera.
+//Här nedanför är början på VG-uppgiften, men jag fick det inte att fungera. Sakerna hamnade i localstorage,
+//men av någon anledning försvann det vid sidladdning ändå.
 /*   useEffect(() =>{
     console.log(cards)
     localStorage.setItem('card', JSON.stringify(cards))
@@ -42,8 +41,8 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path='/home' element={ <Home cards={cards} setCards={setCards}/>}/>
-        <Route path='/addcard' element={ <AddCard setCards={addNewCard}/>}/>
+        <Route path='/home' element={ <Home cards={ cards } setCards={ setCards }/>}/>
+        <Route path='/addcard' element={ <AddCard setCards={ addNewCard }/>}/>
       </Routes>
     </div>
   );

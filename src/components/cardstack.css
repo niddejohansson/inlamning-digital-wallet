@@ -1,7 +1,7 @@
 .cardStack {
-  position: absolute;
-  top: 290px;
-  width: 350px;
+  position: relative;
+  top: 230px;
+  width: auto;
   height: 350px;
 }
 

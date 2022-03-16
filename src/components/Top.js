@@ -7,7 +7,7 @@ function Top(props){
     return(
         <section>
             <h2 className="headline">{ addTitle }{ nameTitle }</h2>
-            <p className='subHeadline'> {addText }{ addName }</p>
+            <p className='subHeadline'> { addText }{ addName }</p>
         </section>
     )
 }
