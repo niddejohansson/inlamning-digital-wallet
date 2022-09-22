@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/https//niddejohansson.github.io/inlamning-digital-wallet/static/css/main.812cfd06.css",
+    "main.js": "/https//niddejohansson.github.io/inlamning-digital-wallet/static/js/main.72ea84a3.js",
+    "static/media/vendor-blockchain.svg": "/https//niddejohansson.github.io/inlamning-digital-wallet/static/media/vendor-blockchain.b0f3bbf04f68dd9174da865ffc2701f0.svg",
+    "static/media/chip-light.svg": "/https//niddejohansson.github.io/inlamning-digital-wallet/static/media/chip-light.fa9004da32553a57f7e8c412d5941d15.svg",
+    "static/media/vendor-ninja.svg": "/https//niddejohansson.github.io/inlamning-digital-wallet/static/media/vendor-ninja.c01309168a6649e3c08d51815272e504.svg",
+    "static/media/vendor-bitcoin.svg": "/https//niddejohansson.github.io/inlamning-digital-wallet/static/media/vendor-bitcoin.325adb88e569cde62da56d83b719dacb.svg",
+    "static/media/vendor-evil.svg": "/https//niddejohansson.github.io/inlamning-digital-wallet/static/media/vendor-evil.b2818e80251b9ca3b8d2dbd461f8684b.svg",
+    "index.html": "/https//niddejohansson.github.io/inlamning-digital-wallet/index.html",
+    "main.812cfd06.css.map": "/https//niddejohansson.github.io/inlamning-digital-wallet/static/css/main.812cfd06.css.map",
+    "main.72ea84a3.js.map": "/https//niddejohansson.github.io/inlamning-digital-wallet/static/js/main.72ea84a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.812cfd06.css",
+    "static/js/main.72ea84a3.js"
+  ]
+}
