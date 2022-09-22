@@ -39,6 +39,8 @@ function App() {
   return (
     <div className="App">
       <Routes>
+        <button>Wallet</button>
+        <button>Add card</button>
         <Route path='/home' element={ <Home cards={ cards } setCards={ setCards }/>}/>
         <Route path='/addcard' element={ <AddCard setCards={ addNewCard }/>}/>
       </Routes>
